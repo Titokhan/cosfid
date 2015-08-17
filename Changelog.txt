@@ -1,0 +1,9 @@
+----------------------------------------------------------
+Cyanogen OS Factory Image Downloader Changelog:
+
+v0.1:
+* Initial release.
+* Included:
+- adb for Windows v1.0.32
+- GNU Wget for Windows v1.16.3
+----------------------------------------------------------
