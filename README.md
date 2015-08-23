@@ -29,7 +29,7 @@ Don't confuse it by Cyanogen OS OTA trackers like the original one: http://cyano
 
 #Credit
 
-1. [qewlpal@MDL]: http://forums.mydigitallife.info/members/162297 for inspirations in scripting
+1. qewlpal@MDL (http://forums.mydigitallife.info/members/162297) for inspirations in scripting
 2. Jernej Simončič for providing Windows builds of GNU wget (https://eternallybored.org/misc/wget/)
 3. Google for providing adb binaries under Apache license
 4. Cyanogen for making Android more beautiful :)
