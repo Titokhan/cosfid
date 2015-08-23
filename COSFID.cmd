@@ -1,5 +1,5 @@
 @echo off
-title Cyanogen OS Factory Image Downloader v0.1
+title Cyanogen OS Factory Image Downloader v0.2
 setlocal EnableExtensions
 setlocal EnableDelayedExpansion
 
@@ -69,9 +69,17 @@ echo Installed version of Cyanogen OS: %_version%
 echo.
 echo Links.txt created with all possible download links :)
 
-echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-signed.zip>Links.txt
-echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-signed-fastboot.zip>>Links.txt
+echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-signed-fastboot.zip>Links.txt
+echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-signed-fastboot.zip.md5sum>>Links.txt
+echo. >>Links.txt
+echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-fastboot.zip>>Links.txt
+echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-fastboot.zip.md5sum>>Links.txt
+echo. >>Links.txt
+echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-signed.zip>>Links.txt
+echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-signed.zip.md5sum>>Links.txt
+echo. >>Links.txt
 echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-boot-debuggable.img>>Links.txt
+echo http://builds.cyngn.com/cyanogen-os/%_devicecodename%/%_version%/%_build%/cm-%_version%-boot-debuggable.img.md5sum>>Links.txt
 
 %~dp0adb kill-server
 

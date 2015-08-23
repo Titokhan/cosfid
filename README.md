@@ -14,7 +14,7 @@ Boot-debuggable image: It is boot image/kernel that enables adb root and the dev
 
 #Requirements
 
-1. Windows Vista or newer. 2000/XP should also work if choice.exe is present.
+1. Windows Vista or newer. 2000/XP should also work if choice.exe is present. Linux & OSX users should check the Python port.
 2. Properly installed adb driver; see here: https://github.com/PFCKrutonium/UnifL_ADB_USB_Project
 3. Properly configured adb_usb.ini (optional); see here: https://github.com/apkudo/adbusbini
 4. A device with regular Cyanogen OS (testing versions aren't supported) installed; list is here: https://cyngn.com/support/
@@ -22,6 +22,8 @@ Boot-debuggable image: It is boot image/kernel that enables adb root and the dev
 #Usage
 
 Download all of the files using "Download ZIP" option, extract somewhere (path with no space is recommended), connect the target device using USB cable & execute COSFID.cmd.
+
+COSFID.py is intended for Linux & OSX users, though Windows users can run it too if Python for Windows is installed. The Python port is a quick-and-dirty one; it needs more refinement.
 
 Don't confuse it by Cyanogen OS OTA trackers like the original one: http://cyanogen-ota-bacon.somee.com/; read carefully to spot the difference. ;)
 
