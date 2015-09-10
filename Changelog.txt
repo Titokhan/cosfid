@@ -1,6 +1,13 @@
 ----------------------------------------------------------
 Cyanogen OS Factory Image Downloader Changelog:
 
+v0.3:
+* Added support for Smartfren Andromax Q (Credit: http://www.needrom.com/author/SoCrATe/).
+* Added support for Wileyfox Swift (Credit: https://twitter.com/Al_Taylor).
+* Added support for Lenovo Zuk Z1 (Credit: http://forum.xda-developers.com/member.php?u=4895752).
+* Added support for YU Yunique (Credit: http://forum.xda-developers.com/member.php?u=2784807). 
+[Sorry, the Prodigal Son aka OPPO N1 CyanogenMod Edition will not be supported.]
+
 v0.2:
 * Added support for downloading non-signed fastboot flashable zip.
 * Added support for downloading *.md5sum files from Cyanogen server for easier file verification.

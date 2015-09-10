@@ -1,5 +1,5 @@
 @echo off
-title Cyanogen OS Factory Image Downloader v0.2
+title Cyanogen OS Factory Image Downloader v0.3
 setlocal EnableExtensions
 setlocal EnableDelayedExpansion
 
@@ -37,7 +37,7 @@ set _device=%%a
 )
 
 set _cosdevice=true
-if not "%_device%"=="A0001" if not "%_device%"=="YUREKA" if not "%_device%"=="YUPHORIA" set _cosdevice=false
+if not "%_device%"=="A0001" if not "%_device%"=="YUREKA" if not "%_device%"=="YUPHORIA" if not "%_device%"=="YUNIQUE" if not "%_device%"=="G36C1H" if not "%_device%"=="Z1" if not "%_device%"=="crackling" set _cosdevice=false
 if "%_cosdevice%"=="true" (
 	goto workplace
 ) else (
